@@ -1,0 +1,50 @@
+
+.cardWrapper{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 400px; */
+    width: 300px;
+    border: 2px #e6cb96 solid;
+    box-shadow: 0px 0px 8px ;
+    border-radius: 20px;
+    margin: 20px 10px;
+    padding: 10px;
+    font-family: cursive;
+}
+.cardWrapper .dishImg{
+    /* height: 250px; */
+    width: 270px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+.d_name{
+    /* font-family:  Pacifico,sans-serif; */
+    font-size: 28px;
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+}
+.s_more{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 10px;
+}
+.s_more_svg{
+    height: 20px;
+    margin: 0 10px;
+}
+.fav{
+    position:absolute;
+    right: 30px;
+    top: 250px;
+    cursor: pointer;
+}
+.fav-chkbox{
+    display: none;
+}

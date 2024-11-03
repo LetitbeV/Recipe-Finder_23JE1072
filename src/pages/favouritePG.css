@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.favHeader{
+    font-size: 35px;
+    font-family: "Handlee", cursive;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+    margin: 10px 0px;
+    margin-top: 20px;
+    
+}
+
+.favParent{
+    display: flex;
+    width: 90vw;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}

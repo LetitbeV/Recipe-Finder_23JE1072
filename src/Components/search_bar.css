@@ -1,0 +1,72 @@
+.form-wrapper{
+    display: flex;
+    /* font-family: Pacifico,sans-serif; */
+    font-family: "Handlee", cursive;
+    flex-direction: column;
+    width: 98vw;
+    /* height: 70vh; */
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+.dishes{
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.inputArea{
+    height: 50vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.askQuery{
+    font-size: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+.queryForm{
+    width: 80%;
+    max-width: 600px;
+}
+#srch{
+    width: 90%;
+    height: 40px;
+    font-size: 25px;
+    border: solid 3px #dac293;
+    border-radius: 30px;
+    padding: 0 20px;
+    margin: 10px 0;
+}
+#cuisine{
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 5px;
+    /* font-family: "Handlee", cursive; */
+}
+#cuisineLabel{
+    font-size: 25px;
+    margin: 10px 30px;
+    /* margin-top: 80px; */
+    margin-right: 10px;
+    font-weight: 600;
+}
+.loading{   
+    font-size: 25px;
+    margin: 15px 30px;
+}
+.search-btn{
+    cursor: pointer;
+    padding: 10px 30px;
+    font-size: 20px;
+    margin: 20px 150px;
+    border-radius: 20px;
+    border: #080036 .5px solid;
+    color: #000c24;
+    background-color:#f5deb3;
+    /* height: 30px;
+    width: 100px; */
+}
