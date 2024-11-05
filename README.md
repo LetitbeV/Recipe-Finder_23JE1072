@@ -45,31 +45,19 @@ Search for Recipes: Enter keywords related to a recipe or ingredient to find rel
 Filter by Cuisine: Use the cuisine filter to narrow down recipes based on your preferred cuisine type.
 Save to Favorites: Logged-in users can save recipes to their favorites for future reference.
 Project Structure
-java
 Copy code
-Recipe-Finder_23JE1072/
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── App.js
-│   ├── index.js
-├── .env
-├── package.json
-└── README.md
-
-### A typical top-level directory layout
-
+### top-level directory layout
     .
-    ├── build                   # Compiled files (alternatively `dist`)
-    ├── docs                    # Documentation files (alternatively `doc`)
-    ├── src                     # Source files (alternatively `lib` or `app`)
-    ├── test                    # Automated tests (alternatively `spec` or `tests`)
-    ├── tools                   # Tools and utilities
-    ├── LICENSE
+    Recipe-Finder_23JE1072/
+    ├── public/
+    ├── src/
+    │   ├── components/
+    │   ├── pages/
+    │   ├── App.js
+    │   ├── index.js
+    ├── .env
+    ├── package.json
     └── README.md
-
-
 Contributing
 Contributions are welcome! Please feel free to submit a pull request.
 
